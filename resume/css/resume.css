@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 100px auto;
+  padding: 30px;
+  max-width: 780px;
+  color: #141414;
+  font-weight: 400;
+}
+
+a, a:active, a:visited, a:hover {
+  color: #1e83e8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #15589b;
+}
+
+.pull-right {
+  float: right;
+}
+
+
+/* FONT SIZES */
+header h1           { font-size: 2em; }
+header p            { font-size: 1.3em; }
+header p:last-child, span.screenonly.pull-right { font-size: 1em; }
+.overview p         { font-size: 1.3em; }
+h2                  { font-size: 0.8em; }
+h3                  { font-size: 1em; }
+h4                  { font-size: 0.8em; }
+p, li               { font-size: 1em; }
+
+header h1 {
+  margin: 0;
+}
+header p {
+  line-height: 150%;
+  margin: 0;
+}
+header p:last-child {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #666;
+}
+h3 {
+  margin: 0;
+  margin-bottom: 5px
+}
+h4 {
+  margin: 0;
+  margin-bottom: 5px
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p, ul {
+  margin-bottom: 30px;
+}
+p {
+  line-height: 150%;
+}
+li {
+  margin-bottom: 5px;
+}
+
+/* -- Narrow screen -- */
+@media (max-width: 720px) {
+  body .pull-right { text-align: left; float: none; display: block; line-height: 180%;}
+}
+
+
+/* -- iPhone 6+ -- */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  header p:last-child { font-size: .7em; }
+}
+
+
+/* -- iPhone 5/5s -- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  header p:last-child { font-size: .7em; }
+}

@@ -1,2 +1,2 @@
 # corygrunk.com
-Personal site.
+My personal site.

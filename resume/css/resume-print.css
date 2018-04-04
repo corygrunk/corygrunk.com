@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 25px auto 0 auto;
+  max-width: 600px;
+  color: #000;
+}
+
+a, a:active, a:visited, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.screenonly {
+  display: none;
+}
+
+/* FONT SIZES */
+header h1           { font-size: 1.2em }
+header p            { font-size: 1em }
+header p:last-child { font-size: 0.7em }
+.overview p         { font-size: 1em }
+h2                  { font-size: 0.7em }
+h3                  { font-size: 0.7em }
+h4                  { font-size: 0.7em }
+p, li               { font-size: 0.8em }
+
+header h1 {
+  margin: 0;
+}
+header p {
+  line-height: 150%;
+  margin: 0;
+}
+header p:last-child {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #666;
+}
+h3 {
+  margin: 0;
+  margin-bottom: 5px
+}
+h4 {
+  margin: 0;
+  margin-bottom: 5px
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p, ul {
+  margin-bottom: 30px;
+}
+p {
+  line-height: 150%;
+}
+li {
+  margin-bottom: 5px;
+}
