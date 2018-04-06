@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <p class="home-description">Hi there. My name is <strong><a href="https://www.linkedin.com/in/corygrunk/" target="_blank">Cory</a></strong>. I'm a <strong>UX designer</strong> for Robots & Pencils. I <a href="https://robotsandpencils.com" target="_blank">design stuff</a>, <a href="https://github.com/corygrunk" target="_blank">write code</a>, <a href="https://flickr.com/photos/antirobot/" target="_blank">take pictures</a>, and <a href="https://twitter.com/corygrunk" target="_blank">drink coffee</a>.</p>
+
+  <div class="link-list"><a href=""></a></div>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h4>{{ post.title | escape }}</h4>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+</div>
