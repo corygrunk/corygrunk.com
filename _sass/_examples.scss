@@ -1,6 +1,5 @@
 body.examples {
   padding: 0;
-  
   .examples {
     text-align: center;
     padding: 20px;
@@ -11,12 +10,15 @@ body.examples {
         color: #64BBDA;
         margin: 20px 0 0 0;
         text-align: left;
-        font-size: 24px;
+        font-size: 26px;
+        font-family: 'Roboto Slab', serif;
       }
       p {
         color: #E8DED6;
         margin: 0 0 20px 0;
         text-align: left;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
       }
       img {
         
