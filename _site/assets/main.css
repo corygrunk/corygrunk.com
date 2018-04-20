@@ -314,3 +314,32 @@ body {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+body.examples {
+  padding: 0; }
+  body.examples .examples {
+    text-align: center;
+    padding: 20px; }
+    body.examples .examples .entry {
+      max-width: 1000px;
+      margin: 0 auto 60px auto; }
+      body.examples .examples .entry h3 {
+        color: #64BBDA;
+        margin: 20px 0 0 0;
+        text-align: left;
+        font-size: 24px; }
+      body.examples .examples .entry p {
+        color: #E8DED6;
+        margin: 0 0 20px 0;
+        text-align: left; }
+      body.examples .examples .entry .video-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0; }
+      body.examples .examples .entry .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute; }
